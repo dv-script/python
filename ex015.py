@@ -1,0 +1,6 @@
+frase = input('Escreva a frase: ').strip()
+print(f'Sua frase em letras maiúsculas é {frase.upper()}')
+print(f'Sua frase em letras minúsculas é {frase.lower()}')
+print(f'Sua frase possui {len(frase) - frase.count(" ")} letras')
+splitado = frase.split()
+print(f'A primeira palavra de sua frase possui {len(splitado[0])} letras')
